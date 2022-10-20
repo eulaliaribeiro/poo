@@ -32,16 +32,16 @@ public class Aula01 {
         System.out.println("O pagamento do(a) estagiário(a) " + estagiario.nome + " é: " + pagamentoEstagiario);
 
         Carro fusca = new Carro();
-        fusca.cor = "rosa";
-        fusca.marca = "volks";
-        fusca.numeroPortas = 2;
-        fusca.placa = "xpt1234";
+        fusca.setCor("rosa");
+        fusca.setMarca("volks");
+        fusca.setNumeroPortas(2);
+        fusca.setPlaca("xpt1234");
 
         Carro kombi = new Carro();
-        kombi.cor = "branca";
-        kombi.marca = "volks";
-        kombi.numeroPortas = 4;
-        kombi.placa = "iop0987";
+        kombi.setCor("branca");
+        kombi.setMarca("volks");
+        kombi.setNumeroPortas(4);
+        kombi.setPlaca("iop0987");
 
     }
 
